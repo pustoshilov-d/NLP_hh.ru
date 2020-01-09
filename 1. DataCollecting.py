@@ -37,10 +37,11 @@ try:
                     # print(spec)
                     id_spec = spec['id']
                     print(id_spec)
-                    # if int(id_spec.split('.')[0]) not in [1,20,17,13,5,21,18]:
+                    # if int(id_spec.split('.')[0]) not in
                     #     print(True)
                     spec_file = open('data/' + id_spec + '.txt', 'w+')
                     for n_page in range(20):
+
                         try:
 
                             responseInfo = requests.get('https://api.hh.ru/vacancies?specialization=' + id_spec + '&page=' + str(n_page) + '&per_page=100')
@@ -49,6 +50,7 @@ try:
                             for specInfo in info['items']:
                                 # print(specInfo)
                                 try:
+
 
                                     spec_file.write(' '.join([str(specInfo['name']), str(specInfo['snippet']['requirement']), str(specInfo['snippet']['responsibility'])])+'\n')
                                     # line = ' '.join([str(specInfo['name']), str(specInfo['snippet']['requirement']), str(specInfo['snippet']['responsibility'])])
