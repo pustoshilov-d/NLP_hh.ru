@@ -12,7 +12,7 @@ Output: top five specialisation titles for that.
 4. Training models of CNN, Baiese classificator, Logistic regression.
 5. Usage models application
 
-[There](https://github.com/pustoshilov-d/NLP_hh.ru/tree/master/screen_shots) are test results. And summury: 
+[There](https://github.com/pustoshilov-d/NLP_hh.ru/tree/master/screen_shots) are test results. And summary: 
 ![](https://github.com/pustoshilov-d/NLP_hh.ru/blob/master/screen_shots/summary.png)
 
 Models and database weight is about 3Gb so they did not uploaded there but could be shared opun contact with me: pustoshilov.d@gmail.com
